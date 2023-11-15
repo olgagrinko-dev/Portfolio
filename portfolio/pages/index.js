@@ -11,43 +11,45 @@ export default function Home() {
           <h1>ГРИНЬКО ОЛЬГА</h1>
           <p>Республика: Беларусь</p>
           <p>Телефон: +37544-7502021</p>
-          <p>E-mail: olgagrinko.87@mail.ru</p>
+          <p>E-mail: grinkowork17@mail.ru</p>
         </div>
       </div>
 
-      <h1 className={style.workExperience}>ОПЫТ РАБОТЫ</h1>
-
-      <div className={style.experience}>
-        <h2>Должность</h2>
-        <p>Компания</p>
-        <p>Период</p>
-        <p>Опишите, в чем заключалась ваша работа,
-          чем вы занимались на своей должности.
-        </p>
-      </div>
-
-      <h1 className={style.content}>НАВЫКИ</h1>
-
-      <div className={style.skills}>
-
-      </div>
-
-      <div className={style.progress}>
-        <div className={style.education}>
-          <div className={style.imglogo1}></div>
-          <div className={style.list1} ></div>
-        </div>
-
-        <div className={style.language}>
-          <div className={style.imglogo2}></div>
-          <div className={style.list2}></div>
+      <div>
+        <h1 className={style.title}>ОПЫТ РАБОТЫ</h1>
+        <div className={style.work}>
+          <h2>Должность</h2>
+          <p>Компания</p>
+          <p>Период</p>
+          <p>Опишите, в чем заключалась ваша работа,
+            чем вы занимались на своей должности.
+          </p>
         </div>
       </div>
 
-      <div className={style.portfolio}>
+      <div className={style.contentBlok}>
+        <h1 className={style.content}>НАВЫКИ</h1>
 
+        <div className={style.skills}>
+
+        </div>
+
+        <div className={style.progress}>
+          <div className={style.education}>
+            <div className={style.imglogo1}></div>
+            <div className={style.list1} ></div>
+          </div>
+
+          <div className={style.language}>
+            <div className={style.imglogo2}></div>
+            <div className={style.list2}></div>
+          </div>
+        </div>
+
+        <div className={style.portfolio}>
+
+        </div>
       </div>
-
     </div>
   )
 }
