@@ -3,7 +3,7 @@ import style from '../styles/Home.module.css';
 
 export default function Home() {
   const array = [
-    {      
+    {
       Job_title: "FullStack",
       Company: "HSC Technology",
       time_period: "2022 - 2023",
@@ -43,22 +43,13 @@ export default function Home() {
 
         <div className={style.skillsblok}>
           <div className={style.block}>
-            <p>JavaScript</p>
-            <p>TypeScript</p>
-            <p>Node.js</p>
-            <p>React</p>
+          {['JavaScript', 'TypeScript', 'Node.js', 'React'].map((el, index) => <p key={index}>{el}</p>)}           
           </div>
           <div className={style.block}>
-            <p>Express.js</p>
-            <p>SQL/MySQL</p>
-            <p>PostgreSQL</p>
-            <p>MongoDB</p>
+          {['Express.js', 'SQL/MySQL', 'PostgreSQL', 'MongoDB'].map((el, index) => <p key={index}>{el}</p>)}             
           </div>
           <div className={style.block}>
-            <p>HTML5</p>
-            <p>CSS/SCSS</p>
-            <p>Redux</p>
-            <p>Redux Toolkit</p>
+          {['HTML5', 'CSS/SCSS', 'Redux', 'Redux Toolkit'].map((el, index) => <p key={index}>{el}</p>)}            
           </div>
         </div>
       </div>
@@ -68,22 +59,14 @@ export default function Home() {
         <div className={style.education}>
           <div className={style.imglogo1}></div>
           <div className={style.list} >
-            <p>Education</p>
-            <p>"Bobruisk State Agrarian and Economic College"</p>
-            <p>"Belarusian State Agricultural Academy
-              of the Order of the October Revolution and
-              the Red Banner of Labor"
-            </p>
-            <p>HShcool</p>
+            {['Education', 'Bobruisk State Agrarian and Economic College', 'Belarusian State Agricultural Academy of the Order of the October Revolution and the Red Banner of Labor', 'HShcool'].map((el, index) => <p key={index}>{el}</p>)}
           </div>
         </div>
 
         <div className={style.language}>
           <div className={style.imglogo2}></div>
           <div className={style.list}>
-            <p>Language</p>
-            <p>English A1</p>
-            <p>Russian</p>
+            {['Language', 'English A1', 'Russian'].map((el, index) => <p key={index}>{el}</p>)}
           </div>
         </div>
       </div>
