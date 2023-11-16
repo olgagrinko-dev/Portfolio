@@ -3,8 +3,7 @@ import style from '../styles/Home.module.css';
 
 export default function Home() {
   const array = [
-    {
-      id: 1,
+    {      
       Job_title: "FullStack",
       Company: "HSC Technology",
       time_period: "2022 - 2023",

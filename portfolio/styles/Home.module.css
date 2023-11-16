@@ -31,8 +31,7 @@
     display: flex;
     align-items: flex-start;
     align-self: stretch;
-    width: 500px;
-    height: 147px;
+    width: 500px;  
     background-color: rgb(47, 46, 46);
     border-radius: 24px;
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
@@ -93,20 +92,6 @@
     font: 500 10px Poppins;
 }
 
-/* .skills {
-    display: flex;
-    align-items: flex-start;
-    align-self: stretch;
-    width: 500px;
-    height: 147px;
-    background-color: rgb(47, 46, 46);
-    border-radius: 24px;
-    background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
-    padding: 24px;
-    margin: auto;
-    gap: 32px;    
-} */
-
 .skillsblok {
     display: flex;
     margin: auto;
@@ -115,7 +100,7 @@
 
 .block p {
     color: var(--White, #F5F8FF);
-    font-family: 400 12px Poppins;
+    font: 400 12px Poppins;
 }
 
 .progress {
@@ -151,8 +136,7 @@
     background-color: rgb(47, 46, 46);
     border-radius: 24px;
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
-    width: 256px;
-    height: 140px;
+    width: 50%;   
     padding: 24px;
     margin: auto;
     gap: 16px;
@@ -162,21 +146,6 @@
     color: var(--White, #F5F8FF);
     font: 400 12px Poppins;
 }
-
-/* .portfolio {
-    display: flex;
-    align-items: center;
-    align-self: stretch;
-    width: 500px;
-    height: 122px;
-    background-color: rgb(47, 46, 46);
-    border-radius: 24px;
-    background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
-    padding: 24px;
-    margin: auto;
-    gap: 32px;
-    margin-top: 16px;
-} */
 
 .imgqr {
     background-image: url(../public/assets/qr.svg);
