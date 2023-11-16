@@ -37,17 +37,29 @@ export default function Home() {
         <div className={style.progress}>
           <div className={style.education}>
             <div className={style.imglogo1}></div>
-            <div className={style.list1} ></div>
+            <div className={style.list1} >
+              <p>Оброзование</p>
+              <p>1.средне-специальное</p>
+              <p>2.высшее</p>
+            </div>
           </div>
 
           <div className={style.language}>
             <div className={style.imglogo2}></div>
-            <div className={style.list2}></div>
+            <div className={style.list2}>
+              <p>Языки</p>
+              <p>1.Русский</p>
+              <p>2.Английский</p>
+            </div>
           </div>
         </div>
 
         <div className={style.portfolio}>
-
+          <div className={style.imgqr}></div>
+          <div className={style.navig}>
+            <h1>MY PORTFOLIO ON DRIBBLE</h1>
+            <p>dribbble.com/pashbe</p>
+          </div>
         </div>
       </div>
     </div>
