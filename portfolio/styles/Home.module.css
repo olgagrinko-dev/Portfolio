@@ -113,7 +113,7 @@
 .progress {
     display: flex;
     align-items: flex-start;
-    width: 520px;
+    width: 550px;
     height: 147px;
     margin: auto;
     gap: 16px;
@@ -121,16 +121,14 @@
 
 .imglogo1 {
     background-image: url(../public/assets/Icon1.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-repeat: no-repeat;   
     width: 120px;
     height: 120px;
 }
 
 .imglogo2 {
     background-image: url(../public/assets/Icon2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;  
     width: 32px;
     height: 32px;
 }
@@ -138,17 +136,17 @@
 .education,
 .language {
     display: flex;
-    padding: 24px;
     align-items: flex-start;
-    gap: 16px;
-    width: 250px;
-    height: 150px;
     align-self: stretch;
+    width: 246px ;
+    height: 160px;
     background-color: rgb(47, 46, 46);
     border-radius: 24px;
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
+    padding: 24px;
     margin: auto;
     margin-top: 16px;
+    gap: 16px;
 }
 
 .list p {
@@ -166,7 +164,7 @@
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
     padding: 24px;
     margin: auto;
-    margin-top: 85px;
+    margin-top: 90px;
     gap: 24px;
 }
 
