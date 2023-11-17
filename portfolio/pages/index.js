@@ -39,27 +39,25 @@ export default function Home() {
       </div>
 
       <h1 className={style.content}>Skills</h1>
-      <div className={style.skills}>
-
-        <div className={style.skillsblok}>
-          <div className={style.block}>
-          {['JavaScript', 'TypeScript', 'Node.js', 'React'].map((el, index) => <p key={index}>{el}</p>)}           
-          </div>
-          <div className={style.block}>
-          {['Express.js', 'SQL/MySQL', 'PostgreSQL', 'MongoDB'].map((el, index) => <p key={index}>{el}</p>)}             
-          </div>
-          <div className={style.block}>
-          {['HTML5', 'CSS/SCSS', 'Redux', 'Redux Toolkit'].map((el, index) => <p key={index}>{el}</p>)}            
-          </div>
+      <div className={style.skillsblok}>
+        <div className={style.block}>
+          {['JavaScript', 'TypeScript', 'Node.js', 'React'].map((el, index) => <p key={index}>{el}</p>)}
+        </div>
+        <div className={style.block}>
+          {['Express.js', 'SQL/MySQL', 'PostgreSQL', 'MongoDB'].map((el, index) => <p key={index}>{el}</p>)}
+        </div>
+        <div className={style.block}>
+          {['HTML5', 'CSS/SCSS', 'Redux', 'Redux Toolkit'].map((el, index) => <p key={index}>{el}</p>)}
         </div>
       </div>
+
 
       <div className={style.progress}>
 
         <div className={style.education}>
           <div className={style.imglogo1}></div>
           <div className={style.list} >
-            {['Education', 'Bobruisk State Agrarian and Economic College', 'Belarusian State Agricultural Academy of the Order of the October Revolution and the Red Banner of Labor', 'HShcool'].map((el, index) => <p key={index}>{el}</p>)}
+            {['Education', 'Bobruisk State Agrarian and Economic College', 'Belarusian State Agricultural Academy of the Order of the October Revolution and the Red Banner of Labor', 'HSchool'].map((el, index) => <p key={index}>{el}</p>)}
           </div>
         </div>
 

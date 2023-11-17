@@ -18,20 +18,16 @@
     flex-direction: column;
     background-color: black;
     width: 595px;
-    /* width: 100%;  */
-    /* height: 100vh; */
-    padding: 48px 48px 48px 48px;
+    padding: 40px;
     margin: auto;
-    gap: 40px;
 }
 
-.contacs,
-.skills,
-.portfolio {
+.contacs {
     display: flex;
     align-items: flex-start;
     align-self: stretch;
-    width: 500px;  
+    width: 500px;
+    height: 150px;
     background-color: rgb(47, 46, 46);
     border-radius: 24px;
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
@@ -47,16 +43,19 @@
     background-size: contain;
     width: 100px;
     height: 200px;
+    border-radius: 10%;
 }
 
 .info h1 {
     color: var(--White, #F5F8FF);
     font: 900 24px Ambit;
+    margin-bottom: 10px;
 }
 
 .info p {
     color: var(--White, #F5F8FF);
     font: 600 12px Poppins;
+    margin-bottom: 8px;
 }
 
 .title,
@@ -66,6 +65,8 @@
     text-transform: uppercase;
     width: 500px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 16px;
 }
 
 .work {
@@ -87,15 +88,21 @@
     font: 500 16px Poppins;
 }
 
+.skillsblok {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    background-color: rgb(47, 46, 46);
+    border-radius: 24px;
+    background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
+    padding: 24px;
+    margin: auto;
+}
+
+
 .workelem p {
     color: var(--White, #F5F8FF);
     font: 500 10px Poppins;
-}
-
-.skillsblok {
-    display: flex;
-    margin: auto;
-    gap: 40px;
 }
 
 .block p {
@@ -105,25 +112,25 @@
 
 .progress {
     display: flex;
-    width: 500px;
+    align-items: flex-start;
+    width: 520px;
     height: 147px;
     margin: auto;
     gap: 16px;
-    margin-top: 16px;
 }
 
 .imglogo1 {
     background-image: url(../public/assets/Icon1.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 32px;
-    height: 32px;
+    width: 120px;
+    height: 120px;
 }
 
 .imglogo2 {
     background-image: url(../public/assets/Icon2.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 32px;
     height: 32px;
 }
@@ -131,20 +138,36 @@
 .education,
 .language {
     display: flex;
+    padding: 24px;
     align-items: flex-start;
+    gap: 16px;
+    width: 250px;
+    height: 150px;
     align-self: stretch;
     background-color: rgb(47, 46, 46);
     border-radius: 24px;
     background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
-    width: 50%;   
-    padding: 24px;
     margin: auto;
-    gap: 16px;
+    margin-top: 16px;
 }
 
 .list p {
     color: var(--White, #F5F8FF);
     font: 400 12px Poppins;
+}
+
+.portfolio {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 500px;
+    background-color: rgb(47, 46, 46);
+    border-radius: 24px;
+    background: var(--balck, radial-gradient(205.3% 154.51% at 91.33% -10.25%, #212225 0%, #1F2025 100%));
+    padding: 24px;
+    margin: auto;
+    margin-top: 85px;
+    gap: 24px;
 }
 
 .imgqr {
